@@ -1,0 +1,359 @@
+.aboutstyle {
+   /* background-color: gray; */
+  
+}
+.projectimg {
+    width:100%; 
+    height:100%;
+}
+
+.porfolio1 {
+    background:url(img/template1.png) ;
+    display:block;
+    height: 250px;
+    background-repeat: no-repeat; 
+    background-size: cover;
+
+    -webkit-transition: background-position 2s ease-in-out;
+    -moz-transition: background-position 2s ease-in-out;
+    -ms-transition: background-position 2s ease-in-out;
+    -o-transition: background-position 2s ease-in-out;
+    transition: background-position 2s ease-in-out;
+}
+
+.porfolio1:hover {
+    background-position:0px -380px;
+
+}
+.porfolio1 .info {
+    visibility: hidden;
+}
+ .porfolio1:hover .info {
+   margin-top: 184px;
+   font-family: serif;
+   /* border: 2px solid white; */
+   background: rgba(0, 0, 0, 0.5);
+   padding: 12px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    visibility: visible;
+}
+.porfolio-animate {
+   
+    animation-duration: 1s;
+    /* transition: all .5s ease-in-out; */
+    animation-name: bounceIn;
+  }
+  
+  @keyframes bounceIn {
+   
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+   
+    
+  
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+.porfolio2 {
+    background:url(img/template4.png) ;
+    display:block;
+      /* text-align: center; */
+      /* color: #fff; */
+      /* padding-top: 20px;; */
+      height: 250px;
+      /* background-position: center;  */
+      background-repeat: no-repeat; 
+      background-size: cover;
+
+    -webkit-transition: background-position 2s ease-in-out;
+    -moz-transition: background-position 2s ease-in-out;
+    -ms-transition: background-position 2s ease-in-out;
+    -o-transition: background-position 2s ease-in-out;
+    transition: background-position 2s ease-in-out;
+}
+
+.porfolio2:hover {
+    background-position:0px -600px;
+
+}
+.porfolio2 .info {
+    visibility: hidden;
+}
+ .porfolio2:hover .info {
+   margin-top: 184px;
+   font-family: serif;
+   /* border: 2px solid white; */
+   background: rgba(0, 0, 0, 0.5);
+   padding: 12px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    visibility: visible;
+}
+.porfolio-animate2 {
+   
+    animation-duration: 1.5s;
+    /* transition: all .5s ease-in-out; */
+    animation-name: bounceIn;
+  }
+  
+  @keyframes bounceIn {
+   
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+   
+    
+  
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+.porfolio3 {
+    background:url(img/template3.png) ;
+    display:block;
+      /* text-align: center; */
+      /* color: #fff; */
+      /* padding-top: 20px;; */
+      height: 250px;
+      /* background-position: center;  */
+      background-repeat: no-repeat; 
+      background-size: cover;
+
+    -webkit-transition: background-position 2s ease-in-out;
+    -moz-transition: background-position 2s ease-in-out;
+    -ms-transition: background-position 2s ease-in-out;
+    -o-transition: background-position 2s ease-in-out;
+    transition: background-position 2s ease-in-out;
+}
+
+.porfolio3:hover {
+    background-position:0px -500px;
+
+}.porfolio3 .info {
+    visibility: hidden;
+}
+ .porfolio3:hover .info {
+   margin-top: 184px;
+   font-family: serif;
+   /* border: 2px solid white; */
+   background: rgba(0, 0, 0, 0.5);
+   padding: 12px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    visibility: visible;
+}
+.porfolio-animate3 {
+   
+    animation-duration: 2s;
+    /* transition: all .5s ease-in-out; */
+    animation-name: bounceIn;
+  }
+  
+  @keyframes bounceIn {
+   
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+   
+    
+  
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+.porfolio4 {
+    background:url(img/constration.png) ;
+    display:block;
+      /* text-align: center; */
+      /* color: #fff; */
+      /* padding-top: 20px;; */
+      height: 250px;
+      /* background-position: center;  */
+      background-repeat: no-repeat; 
+      background-size: cover;
+
+    -webkit-transition: background-position 2s ease-in-out;
+    -moz-transition: background-position 2s ease-in-out;
+    -ms-transition: background-position 2s ease-in-out;
+    -o-transition: background-position 2s ease-in-out;
+    transition: background-position 2s ease-in-out;
+}
+
+
+.porfolio4:hover {
+    background-position:0px -720px;
+
+}
+
+.porfolio4 .info {
+    visibility: hidden;
+}
+ .porfolio4:hover .info {
+   margin-top: 184px;
+   font-family: serif;
+   /* border: 2px solid white; */
+   background: rgba(0, 0, 0, 0.5);
+   padding: 12px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    visibility: visible;
+}
+.porfolio-animate4 {
+   
+    animation-duration: 2.5s;
+    /* transition: all .5s ease-in-out; */
+    animation-name: bounceIn;
+  }
+  
+  @keyframes bounceIn {
+   
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+   
+    
+  
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+
+.porfolio5 {
+    background:url(img/dentistsidebar.png) ;
+    display:block;
+      /* text-align: center; */
+      /* color: #fff; */
+      /* padding-top: 20px;; */
+      height: 250px;
+      /* background-position: center;  */
+      background-repeat: no-repeat; 
+      background-size: cover;
+
+    -webkit-transition: background-position 2s ease-in-out;
+    -moz-transition: background-position 2s ease-in-out;
+    -ms-transition: background-position 2s ease-in-out;
+    -o-transition: background-position 2s ease-in-out;
+    transition: background-position 2s ease-in-out;
+}
+
+.porfolio5:hover {
+    background-position:0px -720px;
+
+}
+.porfolio5 .info {
+    visibility: hidden;
+}
+ .porfolio5:hover .info {
+   margin-top: 184px;
+   font-family: serif;
+   /* border: 2px solid white; */
+   background: rgba(0, 0, 0, 0.5);
+   padding: 12px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    visibility: visible;
+}
+.porfolio-animate5 {
+   
+    animation-duration: 3s;
+    /* transition: all .5s ease-in-out; */
+    animation-name: bounceIn;
+  }
+  
+  @keyframes bounceIn {
+   
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+   
+    
+  
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+.porfolio6 {
+    background:url(img/drink.png) ;
+    display:block;
+      /* text-align: center; */
+      /* color: #fff; */
+      /* padding-top: 20px;; */
+      height: 250px;
+      /* background-position: center;  */
+      background-repeat: no-repeat; 
+      background-size: cover;
+
+    -webkit-transition: background-position 2s ease-in-out;
+    -moz-transition: background-position 2s ease-in-out;
+    -ms-transition: background-position 2s ease-in-out;
+    -o-transition: background-position 2s ease-in-out;
+    transition: background-position 2s ease-in-out;
+}
+
+.porfolio6:hover {
+    background-position:0px -500px;
+
+}
+.porfolio6 .info {
+    visibility: hidden;
+}
+ .porfolio6:hover .info {
+   margin-top: 184px;
+   font-family: serif;
+   /* border: 2px solid white; */
+   background: rgba(0, 0, 0, 0.5);
+   padding: 12px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    visibility: visible;
+}
+.porfolio-animate6 {
+   
+    animation-duration: 3.5s;
+    /* transition: all .5s ease-in-out; */
+    animation-name: bounceIn;
+  }
+  
+  @keyframes bounceIn {
+   
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+   
+    
+  
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .porfolio1 {
+      margin-top: 20px;
+    }
+    .porfolio2 {
+      margin-top: 20px;
+    }
+    .porfolio3 {
+      margin-top: 20px;
+    }
+    .porfolio4 {
+      margin-top: 20px;
+    }
+    .porfolio5 {
+      margin-top: 20px;
+    }
+    .porfolio6 {
+      margin-top: 20px;
+    }
+  }

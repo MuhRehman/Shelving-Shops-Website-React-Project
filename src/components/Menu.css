@@ -1,0 +1,26 @@
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(fonts/Gugi-Regular.ttf);
+}
+
+
+.navbar-nav .nav-item .nav-link {
+font-size: large;
+margin-left: 22px;
+}
+
+
+ 
+
+ 
+
+
+  @media screen and (max-width: 600px) {
+   
+    .navbar-nav .nav-item .nav-link {
+      font-size: large;
+      width: 30%;
+      margin: auto;
+      }
+  }
