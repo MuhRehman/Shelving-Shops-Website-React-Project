@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import cv from './img/cv21.png';
+import cv from './img/cv22.png';
 import {Animated} from "react-animated-css";
 import "./Resume.css";
 // import { Document } from 'react-pdf'.
