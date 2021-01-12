@@ -1,35 +1,31 @@
 import React from 'react';
-// import logo from '../logo.svg';
-import logo from '../rehman.jpg';
-import logo1 from '../logo5122.png';
-
+import logo1 from '../logo/default/logo.png';
 import 'bootstrap/dist/css/bootstrap.css';
-import '../components/Menu.css';
-// import './App.css';
-// const logo = require('./logo512.png');
+import "./Menu.css";
 import {Link} from 'react-router-dom';
 
 const divStyle = {
-    paddingRight: "43px !important",
-    paddingLeft: "44px !important",
+    // paddingRight: "1px !important",
+    // paddingLeft: "1px !important",
    
   };
 
 const divStyle1 = {
-   margineLeft: "144px !important",
+  //  margineLeft: "14px !important",
+  //  color:"black !important"
   };
 const Menu = () => {
   
     return (
         <div  className="rehman">
 
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark rounded">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-white rounded">
     <div className="container">
            
-    <a className="navbar-brand" href="#">
-    <img src={logo1} width="100" height="50" />
+    <Link className="navbar-brand" to="/" href="#">
+    <img src={logo1} width="300" height="auto" />
 
-    </a>
+    </Link>
    
 
 
@@ -37,23 +33,23 @@ const Menu = () => {
     <span className="navbar-toggler-icon"></span>
   </button>
   <div className="collapse navbar-collapse " id="navbarText">
-  <ul style={{ ...divStyle1,...{}}} className="navbar-nav ">
-    <li style={{ ...divStyle,...{ marginLeft:"22px",}}} className="nav-item " data-toggle="collapse" data-target=".navbar-collapse.show">
+  <ul style={{ ...divStyle1,...{}}} className="navbar-nav ml-auto">
+    <li style={{ ...divStyle,...{ marginLeft:"12px",}}}  className="nav-item " data-toggle="collapse" data-target=".navbar-collapse.show">
 
-  <Link style={{ ...divStyle,...{fontSize:"30px"}}} to="/" className="nav-link active">Home </Link>
+  <Link style={{ ...divStyle,...{fontSize:"10px",color:"black"}}} to="/" className="nav-link active">MY ACCOUNT </Link>
     </li>
-    <li className="nav-item mr-4 ml-4" data-toggle="collapse" data-target=".navbar-collapse.show">
-    <Link style={{ ...divStyle,...{fontSize:"30px"}}} to="/Resume" className="nav-link active ">About</Link>
+    <li className="nav-item mr-2 ml-2" data-toggle="collapse" data-target=".navbar-collapse.show">
+    <Link style={{ ...divStyle,...{fontSize:"10px",color:"black"}}} to="/Resume" className="nav-link active ">SIGN IN</Link>
     </li>
 
-    <li className="nav-item mr-4 ml-4" data-toggle="collapse" data-target=".navbar-collapse.show">
-    <Link style={{ ...divStyle,...{fontSize:"30px"}}} to="/About"  className="nav-link active ">Porfolio</Link>
+    <li className="nav-item mr-2 ml-2" data-toggle="collapse" data-target=".navbar-collapse.show">
+    <Link style={{ ...divStyle,...{fontSize:"10px",color:"black"}}} to="/About"  className="nav-link active ">CHECKOUT</Link>
     </li>
     
-    <li className="nav-item mr-4 ml-4" data-toggle="collapse" data-target=".navbar-collapse.show">
-    <Link style={{ ...divStyle,...{fontSize:"30px"}}} to="/Contact" className="nav-link active">Contact</Link>
+    <li className="nav-item mr-2 ml-2" data-toggle="collapse" data-target=".navbar-collapse.show">
+    <Link style={{ ...divStyle,...{fontSize:"10px",color:"black"}}} to="/Contact" className="nav-link active"> BLOG</Link>
     </li>
-    
+
   </ul>
   </div>
   </div>
